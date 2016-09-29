@@ -1,4 +1,4 @@
-namespace :mongoid_migrations do
+namespace :mongoid do
   namespace :db do
     unless Rake::Task.task_defined?("db:drop")
       desc 'Drops all the collections for the database for the current Rails.env'
